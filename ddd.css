@@ -1,0 +1,78 @@
+body{
+
+
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23abd5, #c6d669,#9423d5,#be3636);
+	background-size: 400% 400%;
+	animation: gradient 40s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+.container{
+  text-align: center;
+  margin-top: 360px;
+}
+.btn{
+  border: 1px solid #34db3c;
+  background: #000000;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1,.btn2{
+  color: #50db34;
+}
+.btn3,.btn4{
+  color: rgb(24, 0, 241);
+}
+.btn1:hover,.btn2:hover{
+  color: rgb(0, 231, 58);
+}
+.btn3:hover,.btn4:hover{
+  color: #da00f7;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  background: #432ad3;
+  z-index: -9;
+  transition: 1s;
+}
+
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
+
+
