@@ -1,0 +1,13 @@
+<script>
+    function myFunction() {
+      var myWindow = window.open("", "myWindow", "width=200,height=100");
+      myWindow.document.write("<p>Trying to get Acess'</p>");
+      myWindow.opener.document.write("<p>Acess only for admins</p>");
+
+      for(s = 0; s < book[0]["stars"]; s++){
+        var img = document.createElement("IMG");
+        img.src = "https://i.imgur.com/F543MoZ.png";
+        img.style.width = "30px";
+        img.style.height = "30px";
+        document.getElementById('imagens').appendChild(img);
+    }    }
