@@ -1,9 +1,9 @@
 body{
 
 
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23abd5, #c6d669,#9423d5,#be3636);
-	background-size: 400% 400%;
-	animation: gradient 40s ease infinite;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #ffd900, #c6d669,#9423d5,#be3636,#2bff00,#ddd2d2,#ff3bf5,#1708e6,#15fa00,#0c0606,#e4fc13,#d9ff00,#be3636);
+	background-size: 2000% 2000%;
+	animation: gradient 200s ease infinite;
 }
 
 @keyframes gradient {
@@ -24,7 +24,6 @@ body{
 }
 .btn{
   border: 1px solid #34db3c;
-  background: #000000;
   padding: 10px 20px;
   font-size: 20px;
   font-family: "montserrat";

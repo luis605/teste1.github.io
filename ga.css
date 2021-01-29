@@ -224,6 +224,6 @@ when users will click/enter button(link) browser will add a #id in a url and whe
   position: fixed;
   bottom: 20px;
   left: 20px;
-  color: hsla(0, 0%, 1000%, .6);
-  font-size: 1.6rem;
+  color:rgb(255, 0, 0);
+  font-size: 3.6rem;
 }
