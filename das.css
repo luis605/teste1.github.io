@@ -11,9 +11,9 @@ body {
   }
   /* ============= Animation background ========= */
   .background {
-    background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
-    background-size: 400% 400%;
-    animation: Gradient 15s ease infinite;
+    background: linear-gradient(132deg, #000000, #242424, #796d38, #070f4d,#070f4d);
+    background-size: 900000% 900000%;
+    animation: Gradient 65s ease infinite;
     position: relative;
     height: 100vh;
     width: 100%;
@@ -27,31 +27,31 @@ body {
     left: 45vw;
     width: 10px;
     height: 10px;
-    border: solid 1px #D7D4E4;
+    border: solid 1px #8367ff;
     transform-origin: top left;
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    animation: cube 12s ease-in forwards infinite;
+    transform: scale(2) rotate(0deg) translate(-10%, -10%);
+    animation: cube 40s ease-in forwards infinite;
   }
   .cube:nth-child(2n) {
-    border-color: #FFF ;
+    border-color: rgb(218, 103, 103) ;
   }
   .cube:nth-child(2) {
-    animation-delay: 2s;
+    animation-delay: 1s;
     left: 25vw;
     top: 40vh;
   }
   .cube:nth-child(3) {
-    animation-delay: 4s;
+    animation-delay: 3s;
     left: 75vw;
     top: 50vh;
   }
   .cube:nth-child(4) {
-    animation-delay: 6s;
+    animation-delay: 5s;
     left: 90vw;
     top: 10vh;
   }
   .cube:nth-child(5) {
-    animation-delay: 8s;
+    animation-delay: 7s;
     left: 10vw;
     top: 85vh;
   }
@@ -71,7 +71,7 @@ body {
   }
   /* navbar */
   nav{
-    color: #FFF;
+    color: rgb(255, 255, 255);
     float: right;
     margin:30px 90px;
   }
@@ -84,7 +84,7 @@ body {
   }
   nav ul li a{
     text-decoration: none;
-    color: #EFEEF5;
+    color: #ffffff;
     transition: .5;
     font-size: 15px;
     margin-left:16px;
@@ -97,18 +97,18 @@ body {
     height: 45px;
     padding-top: 30px;
     margin-top: -30px;
-   background: #EFEEF5;
-    text-decoration: none;
-    transform: skew(15deg);
+    background: linear-gradient(132deg, #6d6d6d, #009122);
+    text-decoration:none;
+    transform: skew(-10deg);
   }
   /* Logo */
   .logo{
     width: 35px;
     height: 35px;
     background: #EFEEF5;
-    margin: 40px 63px;
+    margin: 40px 100px;
     float: left;
-    transform: rotate(-30deg);
+    transform: rotate(-35deg);
   }
   .logo span{
     color: #591BC5;
@@ -121,7 +121,7 @@ body {
   .header-content{
     margin-top:25%;
     text-align: center;
-    color:  #EFEEF5;
+    color:  #9b9b9b;
   }
   .header-content h1{
     text-transform: uppercase;
@@ -136,7 +136,7 @@ body {
   .header-content button{
     width: 140px;
     margin:20px 10px;
-    color: #591BC5;
+    color: #474747;
     font-size: 17px;
     border:1px solid #EFEEF5;
     font-weight: 500;
