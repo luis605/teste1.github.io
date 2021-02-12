@@ -97,7 +97,7 @@ body {
     height: 45px;
     padding-top: 30px;
     margin-top: -30px;
-    background: linear-gradient(132deg, #6d6d6d, #009122);
+    background: linear-gradient(132deg, #525252, #6c8572);
     text-decoration:none;
     transform: skew(-10deg);
   }

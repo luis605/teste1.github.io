@@ -218,13 +218,21 @@ button:focus{
 }
 
 #head1{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
   -webkit-animation: fadeOut 1 4s ease-in;
-  -moz-animation: fadeOut 1 4s ease-in;
-  -o-animation: fadeOut 1 4s ease-in;
+  -moz-animation: fadeOut 1 2s ease-in;
+  -o-animation: fadeOut 1 2s ease-in;
   animation: fadeOut 1 2s ease-in;
 }
 
 #head2{
+  position: fixed;
+  bottom: 70;
+  right:90;
+  width: 250px;
   -webkit-animation: fadeOut 1 3s ease-in;
   -moz-animation: fadeOut 1 3s ease-in;
   -o-animation: fadeOut 1 3s ease-in;
@@ -236,17 +244,22 @@ button:focus{
 }
 
 #head3{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
+  -webkit-animation: fadeOut 1 4s ease-in;
+  -moz-animation: fadeOut 1 4s ease-in;
   -o-animation: fadeOut 1 5s ease-in;
   animation: fadeOut 1 5s ease-in;
   -webkit-animation-delay: 4s;
   -moz-animation-delay: 4s;
   -o-animation-delay: 4s;
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 #head4{
+
+  position: fixed;
+  bottom: 50;
+  right:200;
+  width: 100px;
   -webkit-animation: fadeOut 1 5s ease-in;
   -moz-animation: fadeOut 1 5s ease-in;
   -o-animation: fadeOut 1 5s ease-in;
@@ -254,7 +267,7 @@ button:focus{
   -webkit-animation-delay: 8s;
   -moz-animation-delay: 8s;
   -o-animation-delay: 8s;
-  animation-delay: 8s;
+  animation-delay: 5s;
 }
 
 #head5{
@@ -269,9 +282,13 @@ button:focus{
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
-    animation-delay: 12s;
+    animation-delay: 10s;
   }
   #head6{
+    position: fixed;
+    bottom: 70;
+    right:90;
+    width: 250px;
     -webkit-animation: finalFade 1 5s ease-in;
     -moz-animation: finalFade 1 5s ease-in;
     -o-animation: finalFade 1 5s ease-in;
@@ -283,10 +300,11 @@ button:focus{
     -webkit-animation-delay: 16s;
     -moz-animation-delay: 16s;
     -o-animation-delay: 16s;
-    animation-delay: 16s;
+    animation-delay: 13s;
   }
 
   #info{
+    position: center;
     -webkit-animation: finalFade 1 5s ease-in;
     -moz-animation: finalFade 1 5s ease-in;
     -o-animation: finalFade 1 30s ease-in;
